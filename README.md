@@ -15,18 +15,19 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 Deliverable 2
 
-briefly detail and interpret the suspension coil summary statistics.
-
-In your README, create a subheading ## Summary Statistics on Suspension Coils, and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+## Summary Statistics on Suspension Coils
+and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 Deliverable 3 
+## T-Tests on Suspension Coils
 
 perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 Deliverable 4
+ ## Study Design: MechaCar vs Competition.
 
 You will earn a perfect score for Deliverable 4 by completing all requirements below:
 In your README, create a subheading ## Study Design: MechaCar vs Competition.
