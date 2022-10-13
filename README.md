@@ -10,7 +10,6 @@ RESULTS:
 * The p-value for this model is 5.35e-11. This is much smaller than the assumed level of 0.05%, hence this indicates this is sufficient to reject our null hypothesis.   this concludes that the slope of the linear model is not considered to be zero.
 * This linear model predict that it has an r-squared value of 0.7149.This is approximately 71% of all mpg predictions which is determined by this model, which infers     multiple regression model does predict mpg of MechaCar prototypes effectively.
 
-![Lot_summary](https://user-images.githubusercontent.com/107904664/195490963-72ae5dce-9f71-452d-bc8e-ee39f63361bb.png)
 
 Deliverable 2:
 
@@ -22,27 +21,40 @@ Deliverable 2:
 
 ![total_summary](https://user-images.githubusercontent.com/107904664/195492970-d6eff9af-c99d-430c-9117-6e3c8f6ac875.png)
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+  * The design specifications for the MechaCar suspension coils indicate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+  
+  * Also, we get from the above results that the entire population of the production lot ,variance is 62.29 that is well withinthe 100 PSI. So, current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually.
+  * 
 Deliverable 3 
 ## T-Tests on Suspension Coils
 
-perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
-In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+Performed t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+Below are the sample t-tests values for the lots
+
+![One sample t-test and lot 1 t-test](https://user-images.githubusercontent.com/107904664/195494418-ffb200a7-eea8-42ae-81cb-a7bbb87cd8a3.png)
+
+![lot 2 and  3 t-test](https://user-images.githubusercontent.com/107904664/195494474-6652ed08-67da-4ce3-ac24-6dca49a34246.png)
+
+
+Lot 3 production cycle, something is not good. Hence the process should be tested for the system failure and the suspension coil must be inspected for the quality.
 
 Deliverable 4
- ## Study Design: MechaCar vs Competition.
-
-You will earn a perfect score for Deliverable 4 by completing all requirements below:
-In your README, create a subheading ## Study Design: MechaCar vs Competition.
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+ ## Study Design: MechaCar vs Competition
 
 The statistical study design has the following:
-A metric to be tested is mentioned
-A null hypothesis or an alternative hypothesis is described 
-A statistical test is described to test the hypothesis 
-The data for the statistical test is described 
+ *A metric to be tested is mentioned
+ *A null hypothesis or an alternative hypothesis is described 
+ *A statistical test is described to test the hypothesis 
+ 
+ Comparing the similar models across all the manufacturers , we collect the following metrics
+ 
+ Independent Variables:
+ The independent variables are Drive Package, Engine (Electric, Hybrid, Gasoline / Conventional), Safety Feature Rating, Average Annual Cost of ownership (Maintenance), MPG (Gasoline Efficiency) and Resale Value.
+The only dependent variable is the current (selling) price.
+
+Null and Alternative Hypothesis:
+MechaCar is priced correctly on its performance of key factors for its genre, this is Null Hypothesis.
+Mecha car is not priced correctly based on performance of key factors for its genre, this is Alternative Hypothesis.
+
+From the results above, we can conclude that the selling price is most dependent which is to be considered for the higher impact.
+
