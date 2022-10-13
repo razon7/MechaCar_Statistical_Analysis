@@ -1,25 +1,28 @@
 # MechaCar Statistical Analysis
 
-
-
+Deliverable 1
 ## Linear Regression to Predict MPG
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+![lm() function](https://user-images.githubusercontent.com/107904664/195490914-9860427c-3bb9-4c6b-9dff-09a09d3c00be.png)
 
+RESULTS:
+* The variables/coefficients vehicle length and ground clearance provided a non-random amount of variance to the mpg values in the dataset
+* The p-value for this model is 5.35e-11. This is much smaller than the assumed level of 0.05%, hence this indicates this is sufficient to reject our null hypothesis.   this concludes that the slope of the linear model is not considered to be zero.
+* This linear model predict that it has an r-squared value of 0.7149.This is approximately 71% of all mpg predictions which is determined by this model, which infers     multiple regression model does predict mpg of MechaCar prototypes effectively.
 
+![Lot_summary](https://user-images.githubusercontent.com/107904664/195490963-72ae5dce-9f71-452d-bc8e-ee39f63361bb.png)
 
-
-
-
-Deliverable 2
+Deliverable 2:
 
 ## Summary Statistics on Suspension Coils
-and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+   The Suspension Coil dataset provided for the MechaCar contains the results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency.
+
+![Lot_summary](https://user-images.githubusercontent.com/107904664/195493000-ec273923-8b40-43cd-91fb-341148d41ca3.png)
+
+
+![total_summary](https://user-images.githubusercontent.com/107904664/195492970-d6eff9af-c99d-430c-9117-6e3c8f6ac875.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
 Deliverable 3 
 ## T-Tests on Suspension Coils
 
